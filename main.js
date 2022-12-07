@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("hello webpack, youre very complicated!"),function(){const e=document.querySelector("#content"),t=document.createElement("div"),c=document.createElement("div");e.append(t),t.appendChild(c)}()})();
