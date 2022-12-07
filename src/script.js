@@ -1,7 +1,7 @@
 export function initialPageLoad() {
   const contentDiv = document.querySelector("#content");
   const card = document.createElement("div");
-  const image = document.createElement("img");
+  const title = document.createElement("div");
   contentDiv.append(card);
   card.appendChild(title);
 }
