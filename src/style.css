@@ -1,0 +1,13 @@
+#content {
+  border: solid red;
+  height: 50rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: lightcoral;
+}
+#content div {
+  width: 90em;
+  height: 45em;
+  background-color: lightblue;
+}
