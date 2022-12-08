@@ -1,18 +1,15 @@
 export function initialPageLoad() {
   const contentDiv = document.querySelector("#content");
   const card = document.createElement("div");
-  const image = document.createElement("img");
-  const heading = document.createElement("h1");
-  heading.textContent = "Dib's";
-  card.appendChild(heading);
-  contentDiv.append(card);
-  card.appendChild(image);
-  card.classList.add("menu-card");
-  image.classList.add("res-image");
-  image.src = "../src/res.jpg";
-  image.alt = "restaurant image";
-  contentDiv.appendChild(image);
 
+  //const heading = document.createElement("h1");
+  //heading.textContent = "Dib's";
+  //contentDiv.appendChild(heading);
+  contentDiv.append(card);
+  //card.appendChild(image);
+  card.classList.add("menu-card");
+
+  //CARDS
   const card1 = document.createElement("p");
   card1.classList.add("card1");
   card.appendChild(card1);
