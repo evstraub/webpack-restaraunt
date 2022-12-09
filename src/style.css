@@ -3,80 +3,15 @@
   src: url("./Norse-Bold.otf");
 }
 #content {
-  border: 20px ridge brown;
-  display: grid;
+  border: 2px ridge brown;
+  display: flex;
   background-color: lightcoral;
   align-items: center;
   justify-content: center;
+  height: fit-content;
 }
 #content div {
-  width: 50em;
-  height: 45em;
+  width: 40em;
+  height: 100em;
   background-color: lightblue;
-}
-
-/* h1 {
-  color: rgb(255, 255, 255);
-
-  font-size: 100px;
-  font-family: "Norse-bold";
-} */
-
-.card1,
-.card2,
-.card3 {
-  background-color: bisque;
-  border: solid black;
-  width: 600px;
-  height: 200px;
-  display: block;
-  border-radius: 8px;
-  font-size: 20px;
-}
-.menu-card {
-  align-items: center;
-  justify-content: center;
-  display: grid;
-  grid-template-rows: 2fr 2fr 2fr;
-  border-right: ridge 2px black;
-  border-left: ridge 2px black;
-}
-
-.button1 {
-  width: 200px;
-  height: 100px;
-  grid-column: 0/1;
-  grid-row: 1;
-  margin-left: 30px;
-}
-
-.button2 {
-  width: 200px;
-  height: 100px;
-  grid-column: 2/3;
-  grid-row: 1;
-  margin-left: 30px;
-}
-
-.button3 {
-  width: 200px;
-  height: 100px;
-  grid-column: 1/2;
-  grid-row: 1;
-  margin-left: 30px;
-}
-.btnbox {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-
-  grid-template-rows: 0.2fr;
-  justify-content: center;
-  border-top: ridge 2px black;
-  border-right: ridge 2px black;
-  border-left: ridge 2px black;
-}
-.resimage {
-  height: 40px;
-  width: auto;
-  align-items: center;
 }
