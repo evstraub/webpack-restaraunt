@@ -15,3 +15,44 @@
   height: 100em;
   background-color: lightblue;
 }
+header {
+  width: 40em;
+  height: 5em;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 200px;
+  height: 60px;
+  background-color: brown;
+  font-family: "Norse-Bold";
+  color: aliceblue;
+  font-size: xx-large;
+  border: none;
+}
+button:hover {
+  width: 200px;
+  height: 60px;
+  background-color: brown;
+  font-family: "Norse-Bold";
+  color: rgb(221, 148, 37);
+  font-size: xx-large;
+  border: none;
+}
+.menu {
+}
+.title {
+  background-color: lightblue;
+  width: 5em;
+  height: 100px;
+  color: black;
+  font-family: "Norse-Bold";
+  max-width: 40em;
+  font-size: 70px;
+
+  text-align: center;
+  margin-left: 145px;
+  margin-top: 40px;
+}
