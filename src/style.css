@@ -4,14 +4,13 @@
 }
 #content {
   border: 20px ridge brown;
-  height: 50rem;
+  display: grid;
+  background-color: lightcoral;
   align-items: center;
   justify-content: center;
-  display: flex;
-  background-color: lightcoral;
 }
 #content div {
-  width: 90em;
+  width: 50em;
   height: 45em;
   background-color: lightblue;
 }
@@ -32,12 +31,52 @@
   height: 200px;
   display: block;
   border-radius: 8px;
+  font-size: 20px;
 }
 .menu-card {
   align-items: center;
   justify-content: center;
   display: grid;
-  grid-template-rows: 1fr 2fr 2fr 2fr;
-  border-radius: 8px;
-  border: groove 2px black;
+  grid-template-rows: 2fr 2fr 2fr;
+  border-right: ridge 2px black;
+  border-left: ridge 2px black;
+}
+
+.button1 {
+  width: 200px;
+  height: 100px;
+  grid-column: 0/1;
+  grid-row: 1;
+  margin-left: 30px;
+}
+
+.button2 {
+  width: 200px;
+  height: 100px;
+  grid-column: 2/3;
+  grid-row: 1;
+  margin-left: 30px;
+}
+
+.button3 {
+  width: 200px;
+  height: 100px;
+  grid-column: 1/2;
+  grid-row: 1;
+  margin-left: 30px;
+}
+.btnbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-template-rows: 0.2fr;
+  justify-content: center;
+  border-top: ridge 2px black;
+  border-right: ridge 2px black;
+  border-left: ridge 2px black;
+}
+.resimage {
+  height: 40px;
+  width: auto;
+  align-items: center;
 }
