@@ -10,9 +10,9 @@
   justify-content: center;
   height: fit-content;
 }
-#content div {
+.menu {
   width: 40em;
-  height: 100em;
+  height: 60em;
   background-color: lightblue;
 }
 header {
@@ -41,8 +41,7 @@ button:hover {
   font-size: xx-large;
   border: none;
 }
-.menu {
-}
+
 .title {
   background-color: lightblue;
   width: 5em;
@@ -55,4 +54,38 @@ button:hover {
   text-align: center;
   margin-left: 145px;
   margin-top: 40px;
+}
+.sum {
+  width: 35em;
+  height: 5em;
+  background-color: beige;
+  border-radius: 8px;
+  color: black;
+  font-family: "Norse-Bold";
+  font-size: x-large;
+  max-width: 40rem;
+  min-width: 35rem;
+  text-align: center;
+}
+.hours {
+  width: 40em;
+  height: 5em;
+  background-color: beige;
+  border-radius: 8px;
+  color: black;
+  font-family: "Norse-Bold";
+  max-width: 40rem;
+  min-width: 40rem;
+  font-size: x-large;
+}
+.location {
+  width: 40em;
+  height: 5em;
+  background-color: beige;
+  border-radius: 8px;
+  color: black;
+  font-family: "Norse-Bold";
+  max-width: 40rem;
+  font-size: x-large;
+  min-width: 40rem;
 }
