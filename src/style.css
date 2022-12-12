@@ -2,90 +2,58 @@
   font-family: "Norse-Bold";
   src: url("./Norse-Bold.otf");
 }
+body {
+  background-color: lightpink;
+  margin: 0px;
+  padding: 0px;
+  border: red ridge 8px;
+}
+
 #content {
-  border: 2px ridge brown;
-  display: flex;
-  background-color: lightcoral;
-  align-items: center;
-  justify-content: center;
-  height: fit-content;
+  min-height: 100vh;
+  text-align: center;
 }
-.menu {
-  width: 40em;
-  height: 60em;
-  background-color: lightblue;
+
+.image {
+  margin: 25px;
 }
+
+.landing-page-copy,
+.menu-copy,
+.contact-copy {
+  color: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 header {
-  width: 40em;
-  height: 5em;
-  background-color: brown;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-button {
-  width: 200px;
-  height: 60px;
-  background-color: brown;
-  font-family: "Norse-Bold";
-  color: aliceblue;
-  font-size: xx-large;
-  border: none;
-}
-button:hover {
-  width: 200px;
-  height: 60px;
-  background-color: brown;
-  font-family: "Norse-Bold";
-  color: rgb(221, 148, 37);
-  font-size: xx-large;
-  border: none;
-}
-
-.title {
   background-color: lightblue;
-  width: 5em;
-  height: 100px;
-  color: black;
-  font-family: "Norse-Bold";
-  max-width: 40em;
-  font-size: 70px;
+  height: 50px;
+}
 
-  text-align: center;
-  margin-left: 145px;
-  margin-top: 40px;
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  height: 50px;
 }
-.sum {
-  width: 35em;
-  height: 5em;
-  background-color: beige;
-  border-radius: 8px;
-  color: black;
+
+li {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  border-radius: 5px 5px 0px 0px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  cursor: pointer;
   font-family: "Norse-Bold";
-  font-size: x-large;
-  max-width: 40rem;
-  min-width: 35rem;
-  text-align: center;
 }
-.hours {
-  width: 40em;
-  height: 5em;
-  background-color: beige;
-  border-radius: 8px;
-  color: black;
+
+h1 {
   font-family: "Norse-Bold";
-  max-width: 40rem;
-  min-width: 40rem;
-  font-size: x-large;
-}
-.location {
-  width: 40em;
-  height: 5em;
-  background-color: beige;
-  border-radius: 8px;
-  color: black;
-  font-family: "Norse-Bold";
-  max-width: 40rem;
-  font-size: x-large;
-  min-width: 40rem;
 }
