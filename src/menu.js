@@ -1,5 +1,5 @@
-// import greenBeanCassImage from "./assets/greenbeancass.png";
-// import macnCheeseImage from "./assets/macncheese.png";
+import greenBeanCassImage from "./assets/greenbeancass.png";
+import macnCheeseImage from "./assets/macncheese.png";
 
 export function menu() {
   const contentDiv = document.querySelector("#content");
@@ -9,16 +9,16 @@ export function menu() {
 
   // DOM for heading
   const heading = document.createElement("h1");
-  heading.textContent = "Welcome To Jaybees Tech Talk Restaurant And Lounge";
+  heading.textContent = "DIB'S";
   heading.classList.add("landing-title");
   contentDiv.appendChild(heading);
 
   // DOM for greenBeanCass
-  // const greenBeanCass = document.createElement("img");
-  // greenBeanCass.classList.add("image");
-  // greenBeanCass.src = greenBeanCassImage;
-  // greenBeanCass.alt = "Image of Green Bean Casserole";
-  // contentDiv.appendChild(greenBeanCass);
+  const greenBeanCass = document.createElement("img");
+  greenBeanCass.classList.add("image");
+  greenBeanCass.src = greenBeanCassImage;
+  greenBeanCass.alt = "Image of Green Bean Casserole";
+  contentDiv.appendChild(greenBeanCass);
 
   // DOM for p tag for greenBeanCass
   const para1GreenBeanCass = document.createElement("p");
@@ -28,11 +28,11 @@ export function menu() {
   contentDiv.appendChild(para1GreenBeanCass);
 
   // DOM for macnCheese
-  // const macnCheese = document.createElement("img");
-  // macnCheese.classList.add("image");
-  // macnCheese.src = macnCheeseImage;
-  // macnCheese.alt = "Image of Mac and Cheese Dish";
-  // contentDiv.appendChild(macnCheese);
+  const macnCheese = document.createElement("img");
+  macnCheese.classList.add("image");
+  macnCheese.src = macnCheeseImage;
+  macnCheese.alt = "Image of Mac and Cheese Dish";
+  contentDiv.appendChild(macnCheese);
 
   // DOM for p tag for macnCheese
   const para1macnCheese = document.createElement("p");

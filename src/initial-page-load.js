@@ -1,4 +1,4 @@
-// import restaurantImage from "./assets/restaurant-image.jpg";
+import restaurantImage from "./assets/restaurant-image.jpg";
 
 export function initialPageLoad() {
   const contentDiv = document.querySelector("#content");
@@ -13,17 +13,16 @@ export function initialPageLoad() {
   contentDiv.appendChild(heading);
 
   // DOM for landing page top image
-  // const topImage = document.createElement("img");
-  // topImage.classList.add("image");
-  // topImage.src = restaurantImage;
-  // topImage.alt = "Image of Restaurant";
-  // contentDiv.appendChild(topImage);
+  const topImage = document.createElement("img");
+  topImage.classList.add("image");
+  topImage.src = restaurantImage;
+  topImage.alt = "Image of Restaurant";
+  contentDiv.appendChild(topImage);
 
   // DOM for p tag #1
   const para1 = document.createElement("p");
   para1.classList.add("landing-page-copy");
-  para1.textContent =
-    "This is an upscale restaurant that touts its elegance and spacious dining/lounge area.";
+  para1.textContent = "This is a family owned coney style diner.";
   contentDiv.appendChild(para1);
 
   // DOM for p tag #2
